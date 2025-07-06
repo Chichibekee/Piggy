@@ -2,13 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../components/reuseable/Button";
 
-import invest from "../assets/images/invest.avif"; 
-
 const Invest = () => {
   return (
     <div className="bg-blue-600 max-w-[1280px] mx-auto px-4 py-12 text-white">
-      <img src={invest} alt="Invest" className="mb-20 float-end" />
-
       <h1 className="text-3xl font-bold mb-4">Invest</h1>
 
       <p className="text-lg mb-6">Earn more on your savings</p>
@@ -22,7 +18,6 @@ const Invest = () => {
         <Button title="Download on iPhone" bgColor="#122231" textColor="#fff" />
         <Button title="Download on Android" borderColor="#122231" />
       </div>
-
 
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Investments simplified</h2>
@@ -47,12 +42,10 @@ const Invest = () => {
             </p>
           </div>
           <div>
-            {/* <img src={diversifyImage} alt="Diversify portfolio" className="w-full rounded-lg" /> */}
+            {/* Image removed */}
           </div>
         </div>
       </section>
-
-      
     </div>
   );
 };
